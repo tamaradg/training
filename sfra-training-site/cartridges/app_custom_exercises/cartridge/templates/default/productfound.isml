@@ -1,0 +1,4 @@
+<isdecorate template="common/layout/page">
+  <iscomment> <h1>Product name is ${pdict.myProduct.productName}</h1> </iscomment>
+  <h1>${Resource.msgf('product.found', 'mymessage', null, pdict.myProduct.productName)}</h1>
+</isdecorate>

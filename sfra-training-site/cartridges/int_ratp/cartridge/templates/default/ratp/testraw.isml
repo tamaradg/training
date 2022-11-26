@@ -1,0 +1,10 @@
+<isdecorate template="common/layout/page">
+    <div class="hero slant-down login-banner">
+        <h1 class="page-title">${Resource.msg('testraw.pagetitle','ratp',null)}</h1>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <pre>${pdict.traffic}</pre>
+        </div>
+    </div>
+</isdecorate>

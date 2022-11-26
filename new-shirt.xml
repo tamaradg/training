@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="apparel-m-catalog">
+    <header>
+        <image-settings>
+            <internal-location base-path="/images"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+                <view-type>hi-res</view-type>
+            </view-types>
+            <variation-attribute-id>color</variation-attribute-id>
+            <alt-pattern>${productname}, ${variationvalue}, ${viewtype}</alt-pattern>
+            <title-pattern>${productname}, ${variationvalue}</title-pattern>
+        </image-settings>
+    </header>
+
+    <product product-id="xyz-whiteshirt-3">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1.0</min-order-quantity>
+        <step-quantity>1.0</step-quantity>
+        <display-name xml:lang="x-default">White Shirt</display-name>
+        <short-description xml:lang="x-default">Your basic white shirt.</short-description>
+        <long-description xml:lang="x-default">This color goes with anything.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">white</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">white</custom-attribute>
+            <custom-attribute attribute-id="size">L</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-blueshirt-3">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Blue Shirt</display-name>
+        <long-description xml:lang="x-default">This is a very scientific color.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">blue</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">blue</custom-attribute>
+            <custom-attribute attribute-id="size">L</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-redshirt-1">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Red Shirt</display-name>
+        <short-description xml:lang="x-default">Warning: This shirt can be &lt;strong&gt;fatal&lt;/strong&gt; on alien planets.</short-description>
+        <long-description xml:lang="x-default">Warning: This shirt can be fatal on alien planets.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">red</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">red</custom-attribute>
+            <custom-attribute attribute-id="size">S</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-blueshirt-2">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Blue Shirt</display-name>
+        <long-description xml:lang="x-default">This is a very scientific color.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">blue</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">blue</custom-attribute>
+            <custom-attribute attribute-id="size">M</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-whiteshirt-1">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">White Shirt</display-name>
+        <short-description xml:lang="x-default">Your basic white shirt.</short-description>
+        <long-description xml:lang="x-default">This color goes with anything.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">white</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">white</custom-attribute>
+            <custom-attribute attribute-id="size">S</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-redshirt-3">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Red Shirt</display-name>
+        <short-description xml:lang="x-default">Warning: This shirt can be &lt;strong&gt;fatal&lt;/strong&gt; on alien planets.</short-description>
+        <long-description xml:lang="x-default">Warning: This shirt can be fatal on alien planets.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">red</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">red</custom-attribute>
+            <custom-attribute attribute-id="size">L</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-redshirt-2">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Red Shirt</display-name>
+        <short-description xml:lang="x-default">Warning: This shirt can be &lt;strong&gt;fatal&lt;/strong&gt; on alien planets.</short-description>
+        <long-description xml:lang="x-default">Warning: This shirt can be fatal on alien planets.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>        
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">red</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">red</custom-attribute>
+            <custom-attribute attribute-id="size">M</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-whiteshirt-2">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">White Shirt</display-name>
+        <short-description xml:lang="x-default">Your basic white shirt.</short-description>
+        <long-description xml:lang="x-default">This color goes with anything.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">white</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">white</custom-attribute>
+            <custom-attribute attribute-id="size">M</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="xyz-blueshirt-1">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1.0</min-order-quantity>
+        <step-quantity>1.0</step-quantity>
+        <display-name xml:lang="x-default">Blue Shirt</display-name>
+        <long-description xml:lang="x-default">This is a very scientific color.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <searchable-if-unavailable-flag>false</searchable-if-unavailable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="color">blue</custom-attribute>
+            <custom-attribute attribute-id="refinementColor">blue</custom-attribute>
+            <custom-attribute attribute-id="size">S</custom-attribute>
+        </custom-attributes>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+</catalog>

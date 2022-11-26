@@ -1,0 +1,6 @@
+<html>
+    <body>
+        <iscomment> <h1>Could not find product with this ID, ${pdict.prod}</h1> </iscomment>
+        <h1>${Resource.msgf('product.not.found', 'mymessage', null, pdict.prod)}</h1>
+    </body>
+</html>

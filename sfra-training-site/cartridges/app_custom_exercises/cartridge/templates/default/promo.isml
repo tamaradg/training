@@ -1,0 +1,43 @@
+<iscomment>6-2: add decorator here</iscomment>
+<iscomment>
+    avec ce template nous avons un header et un footer
+</iscomment>
+<isdecorate template="common/layout/page">
+
+
+<div class="jumbotron">
+<iscomment> ici le contenu change de langue en fction de l'option langue => dans mymessage.properties(fr) </iscomment>
+  <h1>${Resource.msg('title.promo', 'mymessage', null)}</h1>
+</div>
+
+<div class="row">
+	<div class="col-sm-12 bg-primary">
+		<iscomment>6-7: add content slot here</iscomment>
+    <isslot id="my-promo" context="global" description="promo landing page slot" context-object="" preview-url="" />
+
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="col-sm-6 bg-info">
+    	<div class="p-4">
+    		 <iscomment>6-3: add localinclude for promodescription here// ici c'est un template isml</iscomment>
+        <iscomment> <isinclude template="promodescription" /> </iscomment>
+        <iscomponent pipeline="PDescription-Show" locale="" />
+    	</div>
+	</div>
+
+    <div class="col-sm-6 bg-success">
+    	<div class="p-4">
+    		 <iscomment>6-5: add remote include here// ici c'est un controller Option 1</iscomment>
+         <iscomment> <isinclude url="${URLUtils.url("Basket-Start")}" sf-toolkit="on" /> </iscomment>
+         <iscomment> option 2: use component</iscomment>
+         <iscomponent pipeline="Basket-Start" locale="" />
+      	</div>
+    </div>
+
+</div>
+
+ <iscomment>6-2: close decorator here</iscomment>
+</isdecorate>
